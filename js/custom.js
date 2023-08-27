@@ -391,3 +391,9 @@ $(function(){
     });
 
 });
+
+$('#contact-form').on('submit', function (e) {
+    const subject = $('#InputSubject').val()
+    const body = $('#InputMessage').val()
+    window.location.href = `mailto:dev.namnv@gmail.com?subject=${subject}&body=${body}`
+})

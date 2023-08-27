@@ -566,6 +566,7 @@ header.desktop-header-2 {
   transition: all 0.3s ease-in-out;
   /* === Vertical Menu === */
 }
+
 header.desktop-header-2.open {
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -779,6 +780,9 @@ header.mobile-header-2 .site-logo img {
 header .site-logo img {
   max-height: 30px;
   border-radius: 50%;
+}
+header .site-logo a:hover {
+  color: #fa1f37
 }
 
 .desktop-header-3 {
